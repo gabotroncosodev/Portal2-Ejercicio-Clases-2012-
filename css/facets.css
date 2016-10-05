@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+
+		
+	/* MAIN IMAGE BOX */
+	#main-image-box {
+		width:400px;
+		height:450px;
+		position:relative;
+	}
+		#main-image-box .clip {
+			width:400px;
+			height:450px;
+			position:absolute;
+			top:0;
+			left:0;
+			display:block;
+			background-color:transparent;
+			background-position:center top;
+			background-repeat:no-repeat;
+			z-index:1;
+		}
+
+		#main-image-box #glados {
+			background-image:url(../img/glados.png);
+		}
+
+		#main-image-box #chell {
+			background-image:url(../img/chell.png);
+		}
+			
+		#main-image-box #portalgun {
+			background-image:url(../img/portalgun.png);
+		}
+			
+		#main-image-box #wheatley {
+			background-image:url(../img/Wheatley.png);
+		}
+			
+		#main-image-box #johnson {
+			background-image:url(../img/johnson.png);
+		}
+			
+		#main-image-box #atlaspbody {
+			background-image:url(../img/atlaspbody.png);
+		}
+			
+		#main-image-box #torreta {
+			background-image:url(../img/torreta.png);
+		}
+			
+		#main-image-box #cubo {
+			background-image:url(../img/cubo.png);
+		}
+			
+		#main-image-box #gladospotato {
+			background-image:url(../img/gladospotato.png);
+		}
+			
+		#main-image-box #portaltesting {
+			background-image:url(../img/portalTesting.png);
+		}
+		
+
+			
+
+		#main-image-box .facets:hover {
+			z-index:10;
+		}
+
+		/* Container Styles */
+
+		#main-image-box,
+		
+		/*Nombre de Fotos*/
+		#zodiac-content {
+			float:inherit;
+		}
+		#zodiac-content { /**div nombre imagenes**/
+			background:#F00;
+			margin-left:20px;
+			width:230px;
+		}
+			#zodiac-signs ul li {
+				display:inline;
+			}
+				#zodiac-signs ul li a {
+					padding:2px;
+				}
+				#zodiac-signs ul li a.on {
+					background-color:yellow;
+				}
+
+		#zodiac-information {
+			margin-top:20px;
+		}

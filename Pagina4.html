@@ -1,0 +1,135 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Nuevo Operador Aperture Science</title>
+<link href="css/estiloColumnas.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/mainMenu.css" type="text/css" media="screen" />
+<link href="css/estiloDialogo.css" rel="stylesheet" type="text/css" />
+ <script language="javascript" type="application/javascript" src="js/jquery-1.8.2.js"> </script>
+
+<script type="text/javascript"  src="js/cuadro.dialog.js"></script>
+
+
+<script language="javascript" type="text/javascript">
+
+
+function mostrar_datos()
+{
+//obtener el nombre
+//var nomb=document.getElementsBYName("nombre").value;
+var nomb=document.getElementById("nombre").value;
+var ap=document.getElementById("apellido").value;
+var ciudad=document.getElementById("ciudad").value;
+var sexo=document.getElementById("sexo").value;
+var texto=document.getElementById("texto").value;
+var ok=true;
+
+if(nomb=="")
+{
+alert("Ingrese su Nombre, obvio que tiene uno");
+ok=false;
+return false;
+}
+
+if(ap=="")
+{
+alert("Ingrese su Apellido, aunquesea huerfano");
+ok=false;
+return false;
+}
+if(ciudad=="")
+{
+alert("Ingrese una ciudad, no sea simio");
+ok=false;
+return false;
+}
+if(sexo=="")
+{
+alert("Ingrese un Sexo, solo hombre o mujer, no otra cosa");
+ok=false;
+return false;
+}
+
+if(texto=="")
+{
+alert("Joder, te damos 60 dolares mas si nos dejas que separemos tus miembros. ¡No somos unos matasanos! Sabemos como coser a la gente de nuevo. Una puesta a punto de nuevo, órganos nuevos y de remate te extirpamos. Es más, deberías ser tú quien nos pague a nosotros.");
+ok=false;
+return false;
+}
+
+if(ok)
+{
+alert("Bienvenido "+nomb+" "+ap+" a Aperture Science Viene usted desde muy lejos, desde "+ciudad+" y creemos que su sexo es "+sexo+". Ahora, si respuesta fue: "+texto+", fue muy infantil. ");
+return false;
+}
+}
+</script>
+
+    <script type="text/javascript">
+     </script>
+    <link href="css/estiloMensaje.css" rel="stylesheet" type="text/css" />
+ 
+
+</head>
+
+
+<body>
+
+<div id="wrapper">
+	<div id="cabeza"><img src="img/aperture.png" width="800" height="199">    
+    </div>
+    <div id="principal">
+    	<div id="columna_izquerda">
+        
+        <ul class="dropdown">
+			<li class="active"><span></span></li>
+			<li class="first"><a href="Pagina1.html">Descripcion</a></li>
+            <li><a href="Pagina2.html">Imagenes</a></li>
+			<li><a href="Pagina3.html">Script</a></li>
+			<li class="last"><a href="Pagina4.html">Nuevo Operador</a></li>
+        </ul>
+    	</div>
+    	<div id="columna_derecha">
+		<form id="form1" name="form1" method="post" action="">
+			<p>
+				<label for="nombre">Nombre</label>
+				<input type="text" name="nombre" id="nombre" />
+			</p>
+			<p>
+				<label for="apellido">Apellido</label>
+				<input type="text" name="apellido" id="apellido" />
+			</p>
+			<p>
+				<label for="ciudad">Ciudad</label>
+				<input type="text" name="ciudad" id="ciudad" />
+			</p>
+			<p>
+				<label for="sexo">Sexo</label>
+				<input type="text" name="sexo" id="sexo" />
+			</p>
+           
+			<p>&nbsp;</p>
+			<p>Hola, soy Cave Johnson. Presidente de Aperture Science. Quizás me conoscas por el Comité del '68 de Astronautas Desaparecidos. Puede que hayas usado alguno de nuestros poductos e invenciones que nos han robado otras empresas. Te preguntado: &quot;¿son difícles estas pruebas? ¿Qué decía ese contrato tamaño enciclopedia que firmé? ¿Hay peligro?&quot; Déjame hacerte una pregunta yo. ¡¿Quién quiere 60 dólares?! Escribe ahora:</p>
+
+            <p>
+				<input  class="campotexto" type="text" name="texto" id="texto" />
+			</p>
+			<p>&nbsp;</p>
+			<p>
+			  <button onClick="return mostrar_datos(); return false;">Mostrar</button>
+			</p>
+		</form>
+</div>
+       	<br style="clear:both;">
+    </div>
+    <div class="textoPie" id="pie">
+    
+      <p>Sitio Web Creado por Gabriel Troncoso</p>
+      <p>Basado en Portal 2</p>
+    </div>
+</div>
+<script type="text/javascript"  src="js/mainMen.js"></script>
+
+
+</body>
+</html>

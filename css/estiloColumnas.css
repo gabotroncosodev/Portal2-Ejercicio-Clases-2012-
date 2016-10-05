@@ -1,0 +1,60 @@
+body
+{
+	background:url(../img/fondo1.png);
+	font:Consolas;
+}
+.texto
+{
+	font-family:Consolas;
+	margin:10px;
+	
+}
+
+#wrapper {
+    width:800px;
+    height:auto;
+    margin:auto;
+}
+#cabeza {
+    height:220px;
+    background-color:transparent;
+}
+#principal {
+    width:800px;
+    overflow:hidden;
+    height:auto;
+}
+#columna_izquerda {
+    width:200px;
+    background-color:transparent;
+    height:300px;
+    float:left;
+}
+#columna_derecha {
+    width:590px;
+    background-color:#E4E4E4;
+    height:auto;
+    float:right;
+	text-align:justify;
+	border-left:medium;
+}
+#pie {
+    height:30px;
+    background-color:#CCC;
+	color:#06F;
+}
+.textoPie
+{
+	margin:20px;
+	font-family:Consolas;
+	text-align:center;
+	font-weight:600;
+}
+
+.portal2logo
+{
+	
+max-height: 81px;
+max-width: 300px;
+margin:5px;
+}
